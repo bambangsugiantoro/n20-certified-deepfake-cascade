@@ -4,6 +4,7 @@ Code accompanying the manuscript *Certified Load-Adaptive Cascades for Deepfake 
 
 ## Contents
 The scripts are in `code_N20.zip` (folders `hpc_scripts/` and `edge/`, plus `figs.py`); `figs.py` is also provided unzipped.
+`results_N20.tar.gz` holds the per-draw results (`draws.csv.gz`) and summary tables (`summary.csv`) of every certification experiment (folders `face_main`, `face_main2`, `face_cc`, `face_cc2`, `face_cc_diff`, `face_group`, `face_strat`, `face_strat_v`, `face_strat_v10`, `pilot`, `pilot2`, `pilot3`) and the cluster benchmark `hpc_bench.json`. Columns of `draws.csv.gz`: condition, prevalence, split, label budget, draw, configuration, mode, release rate, risk, cost (GFLOPs), validity.
 - `hpc_scripts/` Slurm job chain and Python scripts for the cluster node: data preparation, frozen-feature extraction, fine-tuning of tiers 1–2, certification draws, per-family and stratified runs, hardware benchmark.
 - `edge/` Edge-device benchmark (`edge_bench.py`), launchers and measured output (`edge_results.json`).
 - `figs.py` Draws the figures from the result tables.
