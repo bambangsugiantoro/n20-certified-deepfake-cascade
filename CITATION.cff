@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Code for: Certified Load-Adaptive Cascades for Deepfake Detection on Edge-Cluster Systems under Generator Shift"
+authors:
+  - family-names: Sugiantoro
+    given-names: Bambang
+    affiliation: "UIN Sunan Kalijaga Yogyakarta"
+  - family-names: Hafizuddin
+    given-names: Faiz Akhmad
+    affiliation: "UIN Sunan Kalijaga Yogyakarta"
+license: MIT
+version: 1.0.0
+date-released: 2026-11-18
